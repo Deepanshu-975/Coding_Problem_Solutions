@@ -1,0 +1,16 @@
+Brute force approch :
+1. first take a row and comare it with every column value.
+2. if it is eqaul then increase the count and print it.
+
+Tc:o(n*n*n) =o(n^3)
+sc: o(1);
+
+Optimise approch :
+1.  we create an unorderd map and push row element to it as a string and add #character to it.
+with their frequencies.
+2. Again we iterate over the map now check of column elements if column elments are present in mapp then update 
+and as its frequencies.
+3. at the end return the ans.
+
+Tc:o(n^2)
+sc:o(n)
